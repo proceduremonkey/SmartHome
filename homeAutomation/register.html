@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+		<!--<script type="text/javascript" src="js/jquery-jsonp-master/src/jquery.jsonp.js"></script>-->
+    <!-- Bootstrap -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+	<script>
+		function abc(){
+		window.open("https://www.baidu.com/");
+	}
+	
+	</script>
+	<script>
+//			$(function(){
+// 				$('#btn').click(function(){
+//				$.ajax({
+//					
+//					contentType:"application/json",
+//					type:"GET",
+//					url:"http://120.27.95.22/CloudHome/index.php/Home/Index/user_reg?",
+////					data:{ "location":city,
+////						  	"output":'json',
+////						  	"ak":'qaby0i9lhaBplZDZeyuZGHGs'
+////					},
+//					data:{  user_name:13111111111111,
+//						    user_pwd:123,
+//						    check_pwd:123,
+//							phone:12222222222222
+//					},
+//					dataType:"json",
+////					jsonp:'callback',
+//					cache:"false",
+//					async:true,
+//					success: function(data){
+//							alert(JSON.stringify(data))
+////						alert(data.results[0].weather_data[0].temperature)
+////						var datac =JSON.stringify(data)
+////						alert(datac)
+////             var mes_obj = eval("(" + datac + ")");
+////                 alert(mes_obj)
+////					var data = $.parseJSON(datac);
+////					for(var i=0;i<data.length;i++){
+////						  alert(data.results[i].pm25);
+////					}
+//               
+////                  	$.each(data.results, function(i,obj) {
+////                  		alert(obj[0].pm25);
+////                  	});	
+//					
+//              	 
+//					},
+//					error: function(XMLHttpRequest, textStatus, errorThrown){
+//						alert("出错啦");
+// 						 alert(XMLHttpRequest.status);
+//                      alert(XMLHttpRequest.readyState);
+//                      alert(textStatus);
+//					}
+//			});
+//			})
+//			})
+	</script>
+	<body>
+		<div class="container-fluid">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form_center">
+							<form>
+						  <div class="form-group">
+						  	 <label for="exampleInputEmail1">手机号码：</label>
+						    <input type="text" class="form-control" id="number" placeholder="11位手机号" >
+						    <label for="exampleInputEmail1">用户名：</label>
+						    <input type="text" class="form-control" id="name" placeholder="Username" >
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">设置密码：</label>
+						    <input type="password" class="form-control" id="password" placeholder="Password" >
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">确认密码：</label>
+						    <input type="password" class="form-control" id="password_confirm" placeholder="Password">
+						  </div>
+						  <div class="checkbox">
+						    <label>
+						      <input type="checkbox" checked="checked">我已同意并接受<a href="#">《服务条款》</a>
+						    </label>
+						  </div>
+						  <button type="button" class="btn btn-success"  id="btn">立即注册</button>
+						<!--<input type="button" value="fff" onclick="abc()"/>-->
+						</form>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
